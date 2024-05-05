@@ -33,7 +33,7 @@ const Footer = () => {
                     <Link to={'Preimushestva'}>Преимущества</Link>
                     <Link to={'Navosti'}>Новости и статьи</Link>
                     <Link to={'Aksii'}>Акции</Link>
-                    <Link to={'Kantakt'}>КОНТАКТЫ</Link>
+                    <Link to={'Kantakt'}>Контакты</Link>
                 </div>
             </div>
             <p className='text-center pt-10 tracking-[2px]'>© 2024 Экстерьерные пленки DECORS • Самоклеящиеся листы для ламинации сэндвича</p>
