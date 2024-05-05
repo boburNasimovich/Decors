@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply font-montserrat;
+  }
+}
+
+body {
+  position: relative;
+}
+
+.dropdown-btn:active {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #BB2649;
+}
+
+.dropdown-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 19px;
+  padding-top: 19px;
+}
+
+.location-icon {
+  color: white;
+}
+
+.hero-container {
+  background-image: url('./img/decor-hero.png');
+}
+
+.hero-overlay {
+  background-color: rgba(187, 38, 73, 0.5);
+}
+
+.navlink:hover .navLinkImg {
+  transform: rotate(180deg);
+  transition: all 0.3s ease;
+}
+
+.navLinkImg {
+  transition: all 0.3s ease;
+}
+
+.navLinkIcon:hover {
+  transform: scale(2);
+  transition: all 0.3s ease;
+}
+
+.navLinkIcon {
+  transition: all 0.3s ease;
+}
+
+.advantages-container {
+  width: 100%;
+  max-width: 100%;
+  background: radial-gradient(rgba(212, 46, 91, 0.7), rgb(212, 46, 91));
+}
+
+.advantages-card {
+  background: linear-gradient(#73737302, #D9D9D904);
+  box-shadow: inset 0 0 10px #ffffff25;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.PerviShag-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #D42E5B, #6E182F);
+}
+
+/* swiper */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiperContainer {
+  box-shadow: 0 0 10px #bb264920;
+}
+
+.obs-container {
+  background-color: #D42E5B;
+}
+
+.obs-containerb {
+  background-image: url('./img/redimg.png');
+  background-position: right;
+  border-top-right-radius: 10px;
+  background-repeat: no-repeat;
+}
+
+.produksiya-link::before {
+  margin-right: 10px;
+  color: #BB2649;
+  content: "•";
+  font-weight: 1000;
+}
+
+.uslugi-list::before {
+  margin-right: 10px;
+  color: #BB2649;
+  content: "•";
+  font-weight: 1000;
+}
+
+.dropdown-content {
+  /* Oldingi CSS kodlari */
+
+  transition: transform 0.3s ease;
+  transform: translateY(-10px);
+}
+
+.dropdown-content:hover {
+  transition: transform 0.3s ease;
+  transform: translateY(0);
+}
