@@ -26,13 +26,14 @@ const Footer = () => {
                     </Link>
                 </div>
                 <div className='grid lg:grid-cols-2 lg:space-y-0 sm:space-y-3 space-y-3 lg:py-0 sm:py-10 py-7 sm:grid-cols-1 grid-cols-1 w-full max-w-xl lg:text-start text-center sm:text-center'>
-                    <Link>Продукция</Link>
-                    <Link>Отзывы</Link>
-                    <Link>Услуги</Link>
-                    <Link>Сертификаты</Link>
-                    <Link>Преимущества</Link>
-                    <Link>Новости и статьи</Link>
-                    <Link>Акции</Link>
+                    <Link to={'Produksiya'}>Продукция</Link>
+                    <Link to={'Uslugi'}>Отзывы</Link>
+                    <Link to={'Uslugi'}>Услуги</Link>
+                    <Link to={'Sertifikati'}>Сертификаты</Link>
+                    <Link to={'Preimushestva'}>Преимущества</Link>
+                    <Link to={'Navosti'}>Новости и статьи</Link>
+                    <Link to={'Aksii'}>Акции</Link>
+                    <Link to={'Kantakt'}>КОНТАКТЫ</Link>
                 </div>
             </div>
             <p className='text-center pt-10 tracking-[2px]'>© 2024 Экстерьерные пленки DECORS • Самоклеящиеся листы для ламинации сэндвича</p>

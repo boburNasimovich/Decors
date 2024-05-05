@@ -2,7 +2,7 @@ import React from 'react'
 
 const Zakaz = () => {
     return (
-        <div className='w-full max-w-7xl mx-auto pt-16 pb-10 flex flex-col items-center'>
+        <div className='w-full max-w-7xl mx-auto sm:pt-10 pt-4 lg:pt-16 sm:pb-10 pb-6 lg:pb-10 flex flex-col items-center'>
             <h2 className='text-3xl font-bold'>Как работает заказ</h2>
             <ul className='flex lg:flex-row sm:flex-col flex-col text-center items-center justify-between pt-[57px] pb-3 lg:space-x-5 sm:space-x-0 space-x-0'>
                 <li className='w-full max-w-[232px] space-y-5'>
