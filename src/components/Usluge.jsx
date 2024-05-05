@@ -43,7 +43,7 @@ const Usluge = () => {
                     </div>
                 </div>
             </div>
-            <Link className='px-9 py-5 bg-[#D42E5B] hover:bg-[#9F2436] rounded-[10px] text-xl font-bold text-white'>Сделать заказ</Link>
+            <Link to={'zakaz'} className='px-9 py-5 bg-[#D42E5B] hover:bg-[#9F2436] rounded-[10px] text-xl font-bold text-white'>Сделать заказ</Link>
         </div>
     )
 }

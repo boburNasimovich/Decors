@@ -25,11 +25,11 @@ const Header = () => {
                     />
                 </div>
                 <div className='flex items-center space-x-10 sm:space-x-56 lg:space-x-5'>
-                    <Link className='font-medium'>
+                    <Link to={'telefon'} className='font-medium'>
                         <p>8 (800) 55-11-607 </p>
                         <p>Позвонить Вам?</p>
                     </Link>
-                    <Link className='px-8 py-4 bg-[#D42E5B] hover:bg-[#9F2436] text-white rounded-xl'>
+                    <Link to={'chat'} className='px-8 py-4 bg-[#D42E5B] hover:bg-[#9F2436] text-white rounded-xl'>
                         <p className='font-medium'>Напишите нам</p>
                         <p>Онлайн чат</p>
                     </Link>

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Hero2 = () => {
     return (
         <div className='w-full max-w-7xl mx-auto py-10 flex lg:flex-row sm:flex-col flex-col items-center justify-between '>
-            <div className='flex items-center flex-col space-y-5 relative'>
+            <div className='flex items-center  flex-col sm:space-y-2 space-y-2 lg:space-y-5 relative'>
                 <img src={img3} alt="img" />
                 <div className='absolute w-[140px] h-[140px] bg-[#D42E5B] rounded-full bottom-32 right-0'>
                     <div className='w-32 h-32 mx-auto border-2 mt-[6px] border-dotted rounded-full text-white text-center'>
@@ -18,7 +18,7 @@ const Hero2 = () => {
             </div>
             <div>
                 <h2 className='text-4xl font-bold mx-10 text-center'>Экстерьерные пленки DECORS</h2>
-                <div className='py-[84px] space-y-10 px-5'>
+                <div className='sm:pt-10 pt-10 lg:pt-[84px] sm:space-y-5 space-y-4 lg:space-y-10 px-5'>
                     <div>
                         <div className='w-full max-w-2xl bg-[#D42E5B] rounded-[5px]'>
                             <p className='text-white text-center py-1'>100%</p>

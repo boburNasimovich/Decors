@@ -11,13 +11,15 @@ const MainLayout = () => {
         window.scrollTo(0, 0);
     }, [location.pathname]);
     const isHomePage = location.pathname === "/";
+    const isNotPage = location.pathname === "*";
+
 
     return (
         <>
             <Header />
             <Navlink />
             <main>
-                {!isHomePage && <BreadCrumb />}
+                {!isHomePage && !isNotPage && <BreadCrumb />}
                 <Outlet />
             </main>
             <Footer />

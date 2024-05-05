@@ -12,6 +12,7 @@ import Sertifikati from './pages/Sertifikati'
 import Navosti from './pages/Navosti'
 import Kantakt from './pages/Kantakt'
 import PlyonkiHyundai from './pages/PlyonkiHyundai'
+import PageNotFound from './pages/PageNotFound'
 
 const App = () => {
   const router = createBrowserRouter(
@@ -28,6 +29,7 @@ const App = () => {
         <Route path='Navosti' element={<Navosti />} />
         <Route path='Kantakt' element={<Kantakt />} />
         <Route path='PlyonkiHyundai' element={<PlyonkiHyundai />} />
+        <Route path='*' element={<PageNotFound />} />
       </Route>
     )
   )
